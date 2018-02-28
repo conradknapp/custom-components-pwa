@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    html {
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    a,
+    a:link {
+      color: #c27730;
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ol,
+    ul {
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+    }
+
+    ol,
+    ul {
+      list-style: none;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Primary Styles */
+
+    html {
+      background: #fff4e2;
+    }
+
+    body {
+      margin: 100px 50px;
+      padding: 0;
+      color: #000;
+      background: white;
+      display: grid;
+      grid-template-columns: 2fr 5fr;
+      grid-template-rows: auto;
+      box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 500px) {
+      body {
+        margin: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 5fr;
+      }
+    }
+  </style>
+  <title>Web Components Demo</title>
+</head>
+
+<body>
+  <sweet-navbar></sweet-navbar>
+  <hero-pic></hero-pic>
+
+  <script src="/dist/0c27763e3e0d163da718e745ddbe1c7c.js"></script>
+  <script src="/dist/ad2ab8ee24c7b2f3de21c376c80fd820.js"></script>
+  <script src="/dist/2ca9c548b488609452afa4d11c1c4da6.js"></script>
+</body>
+
+</html>
