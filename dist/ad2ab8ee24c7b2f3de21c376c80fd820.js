@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({4:[function(require,module,exports) {
+})({5:[function(require,module,exports) {
 /**
  * @license
  * Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
@@ -147,7 +147,7 @@ require = (function (modules, cache, entry) {
   }
 })();
 
-},{}],11:[function(require,module,exports) {
+},{}],337:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -169,7 +169,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '65329' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '65415' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -270,5 +270,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[11,4])
+},{}]},{},[337,5])
 //# sourceMappingURL=/dist/ad2ab8ee24c7b2f3de21c376c80fd820.map

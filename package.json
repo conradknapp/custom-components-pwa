@@ -7,7 +7,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "webcomponents/webcomponentsjs"
+    "@webcomponents/webcomponentsjs": "webcomponents/webcomponentsjs",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "sw-toolbox": "^3.6.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.2"
